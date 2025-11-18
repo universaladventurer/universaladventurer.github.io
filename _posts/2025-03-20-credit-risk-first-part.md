@@ -40,5 +40,3 @@ Topics include:
 </object>
 
 ---
-
-If you find this helpful or want the source files, feel free to reach out!
