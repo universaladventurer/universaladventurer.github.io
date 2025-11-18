@@ -1,11 +1,13 @@
 ---
-layout: post
-title: "Applications in Credit Risk — Second Part"
-categories: [Finance, Credit Risk]
-tags: [credit-risk, notes]
-author_profile: true
-read_time: true
+title: 'Applications in Credit Risk — First Part'
+date: 2025-03-23
+permalink: /posts/2025/03/blog-post/
+tags:
+  - credit-risk
+  - notes
 ---
+
+
 
 ## 📘 Applications in Credit Risk — First Part  
 This post shares my lecture notes for **Credit Risk – Part I**, organized as a structured, exam-friendly PDF.  
