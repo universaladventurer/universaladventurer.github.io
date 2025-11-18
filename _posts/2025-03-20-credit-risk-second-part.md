@@ -33,7 +33,7 @@ This post shares my lecture notes for **Credit Risk – Part II**, covering:
 ## 🔍 Online Preview (Open in Browser)
 <object data="/assets/pdf/Applications in Credit Risk_Second Part.pdf" type="application/pdf" width="100%" height="800px">
     <p>Your browser does not support PDF viewing.  
-    <a href="/assets/pdf/Applications in Credit Risk_Second Part.pdf">Click here to download.</a></p>
+    <a href="/files/Applications in Credit Risk_Second Part.pdf">Click here to download.</a></p>
 </object>
 
 ---
