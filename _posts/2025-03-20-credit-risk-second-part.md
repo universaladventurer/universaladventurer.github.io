@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "Applications in Credit Risk — Second Part (PDF Notes)"
-categories: [Finance, Credit Risk]
-tags: [credit-risk, notes, pdf]
-author_profile: true
-read_time: true
+title: 'Applications in Credit Risk — Second Part'
+date: 2025-03-23
+permalink: /posts/2025/03/blog-post/
+tags:
+  - credit-risk
+  - notes
 ---
 
 ## 📘 Applications in Credit Risk — Second Part  
