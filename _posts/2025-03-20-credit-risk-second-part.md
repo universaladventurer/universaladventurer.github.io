@@ -37,5 +37,3 @@ This post shares my lecture notes for **Credit Risk – Part II**, covering:
 </object>
 
 ---
-
-If you'd like a combined version or want me to create a clean "Course Notes" index page, I can generate that too.
