@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Applications in Credit Risk — First Part (PDF Notes)"
+title: "Applications in Credit Risk — Second Part"
 categories: [Finance, Credit Risk]
-tags: [credit-risk, notes, pdf]
+tags: [credit-risk, notes]
 author_profile: true
 read_time: true
 ---
