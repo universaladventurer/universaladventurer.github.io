@@ -34,9 +34,9 @@ Topics include:
 ---
 
 ## 🔍 Online Preview (Open in Browser)
-<object data="/assets/pdf/Applications in Credit Risk_First Part.pdf" type="application/pdf" width="100%" height="800px">
+<object data="/files/Applications in Credit Risk_First Part.pdf" type="application/pdf" width="100%" height="800px">
     <p>Your browser does not support PDF viewing.  
-    <a href="/assets/pdf/Applications in Credit Risk_First Part.pdf">Click here to download.</a></p>
+    <a href="/files/Applications in Credit Risk_First Part.pdf">Click here to download.</a></p>
 </object>
 
 ---
