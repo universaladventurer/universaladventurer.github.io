@@ -21,7 +21,7 @@ redirect_from:
 * **Columbia University**, New York, USA  
   *M.S. in Applied Mathematics (Minor: Finance), Jan 2024 – May 2025*  
   • Leadership: Department Representative, Engineering Graduate Student Council (EGSC)  
-  • Coursework: ML in Finance, Stochastic Analysis, Algorithmic Trading, Computational Methods in Finance  
+  • Coursework: Stochastic Methods in Finance, Machine learning in Finance, Stochastic Analysis, Algorithmic Trading, Computational Methods in Finance  
 
 * **University of Texas at Austin**, Austin, USA  
   *B.S. in Mathematics & B.S. in Economics, Jan 2021 – Dec 2023*  
@@ -40,7 +40,7 @@ FinTech–Bank Partnerships • Financial Intermediation
 
 # Research & Projects 📊
 
-### CEO Interview Sentiment & Event Analysis *(INSEAD Singapore)*  
+### CEO Interview Sentiment & Event Analysis *(INSEAD, NUS Singapore)*  
 **Grant-Funded RA | Jul 2025 – Oct 2025**  
 - Processed **3,957 CNBC CEO interview transcripts** using Loughran–McDonald dictionary + custom event detection (42-feature dataset).  
 - Identified significant sentiment differences across programs (ANOVA F=54.13, p<0.001).  
@@ -105,23 +105,23 @@ FinTech–Bank Partnerships • Financial Intermediation
 - Supported academic and career-related initiatives for graduate engineering students.
 
 ### Read Ahead Program — Literacy Mentor  
-*Oct 2024 – May 2025*  
-- Conducted **bi-weekly virtual reading sessions** with elementary students to support fluency, comprehension, and confidence.  
+**[Read Ahead](https://readahead.org/)** · *Oct 2024 – May 2025*  
+- Conducted **bi-weekly virtual reading sessions** with elementary students to support literacy development.  
 - Designed individualized reading exercises aligned with student progress.
 
 ### Economics Peer Mentor Program (EPMP), UT Austin  
-*Peer Mentor | Jan 2021 – May 2023*  
-- Mentored undergraduate students on course planning, study strategies, and transitioning to university life.  
-- Led small-group discussions on core economics coursework and academic resources.
+**[EPMP](https://liberalarts.utexas.edu/economics/undergraduate-program/mentor-programs/)** · *Peer Mentor | Jan 2021 – May 2023*  
+- Guided undergraduates on course planning, study strategy, and transitioning to university life.  
+- Facilitated small-group discussions on core economics topics and academic resources.
 
-### PLUS Program — Peer-Led Undergraduate Studying (UT Austin)  
-*Facilitator for ACC 310F: Foundations of Accounting | Spring 2022*  
+### Peer-Led Undergraduate Studying Program (PLUS), UT Austin  
+**[PLUS Program](https://catalog.utexas.edu/archive/2016-17/undergraduate/undergraduate-studies/degrees-and-programs/)** · *Facilitator for ACC 310F: Foundations of Accounting | Spring 2022*  
 - Led **weekly 1.5-hour structured review sessions** under faculty supervision.  
 - Reinforced foundational concepts in accounting through guided practice and collaborative problem-solving.
 
 ### Competitions & Service  
-- **CAS Hurricane Risk Visualization Competition** — *Honorable Mention*  
-  - Built interactive dashboards and scenario analyses for hurricane impact and insurance risk pricing.  
+- **[CAS Hurricane Risk Visualization Competition](https://sites.utexas.edu/actuarial-sciences/category/case-competition/)** · *Honorable Mention*  
+  - Built **interactive dashboards** and **scenario analyses** for hurricane impact modeling and insurance risk pricing.  
 - **March Economic Madness, UT Austin** — *Finalist (Top 4 Teams)*  
   - Conducted socioeconomic research on regional growth and developed policy recommendations.  
 - **UT Outpost** — *Officer*  
