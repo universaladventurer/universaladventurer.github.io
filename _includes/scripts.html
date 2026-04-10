@@ -1,6 +1,6 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
-<!-- Override greedy-nav: move all hidden links back to visible -->
+<!-- Override greedy-nav: MutationObserver keeps all links visible -->
 <script>
 (function() {
   function fixNav() {
@@ -15,14 +15,44 @@
     }
     if (btn) btn.style.display = 'none';
   }
-  // Run after greedy-nav has executed
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() { setTimeout(fixNav, 100); });
-  } else {
-    setTimeout(fixNav, 100);
+
+  // Watch for greedy-nav moving items and immediately reverse it
+  function startObserver() {
+    var hidden = document.querySelector('#site-nav .hidden-links');
+    if (!hidden) return;
+    var observer = new MutationObserver(function() {
+      if (hidden.children.length > 0) fixNav();
+    });
+    observer.observe(hidden, { childList: true });
+    // Also observe the button becoming visible
+    var btn = document.querySelector('#site-nav button');
+    if (btn) {
+      var btnObs = new MutationObserver(function() {
+        btn.style.display = 'none';
+      });
+      btnObs.observe(btn, { attributes: true, attributeFilter: ['class'] });
+    }
   }
-  // Also fix on resize (greedy-nav re-runs on resize)
-  window.addEventListener('resize', function() { setTimeout(fixNav, 150); });
+
+  // Run fix repeatedly during load to catch greedy-nav whenever it executes
+  var attempts = 0;
+  var interval = setInterval(function() {
+    fixNav();
+    attempts++;
+    if (attempts > 20) clearInterval(interval);
+  }, 100);
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      fixNav();
+      startObserver();
+    });
+  } else {
+    fixNav();
+    startObserver();
+  }
+
+  window.addEventListener('resize', function() { fixNav(); });
 })();
 </script>
 
