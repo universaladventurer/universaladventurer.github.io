@@ -17,7 +17,7 @@ redirect_from:
 
 {% include base_path %}
 
-# Education 🎓
+# Education 
 * **Columbia University**, New York, USA  
   *M.S. in Applied Mathematics (Minor: Finance), Jan 2024 – May 2025*  
   • Leadership: Department Representative, Engineering Graduate Student Council (EGSC)  
@@ -31,14 +31,14 @@ redirect_from:
 
 ---
 
-# Research Interests 🔍
+# Research Interests 
 Text-based Financial Economics • Corporate Governance & Disclosure  
 Empirical Asset Pricing • Machine Learning  
 FinTech–Bank Partnerships • Financial Intermediation  
 
 ---
 
-# Research & Projects 📊
+# Research & Projects 
 
 ### CEO Interview Sentiment & Event Analysis *(INSEAD, NUS Singapore)*  
 **Grant-Funded RA | Jul 2025 – Oct 2025**  
@@ -84,7 +84,7 @@ FinTech–Bank Partnerships • Financial Intermediation
 
 ---
 
-# Industry Experience 💼
+# Industry Experience 
 
 ### Formation Capital Group — Investment Banking Intern  
 **USA | Jun 2022 – Dec 2023**  
@@ -96,7 +96,7 @@ FinTech–Bank Partnerships • Financial Intermediation
 
 ---
 
-# Leadership & Activities 🤝
+# Leadership & Activities 
 
 ### Columbia Engineering — Engineering Graduate Student Council (EGSC)  
 *Department Representative, Applied Mathematics | Spring 2025*  
@@ -131,13 +131,13 @@ FinTech–Bank Partnerships • Financial Intermediation
 
 ---
 
-# Professional Memberships 🏅
+# Professional Memberships 
 CFA Society New York • Omicron Delta Epsilon (ODE)  
 Tau Sigma National Honor Society • Mathematical Association of America (MAA)
 
 ---
 
-# Skills 🛠️
+# Skills 
 
 **Programming:** Python (Pandas, NumPy, SciPy), R, Java  
 **Machine Learning:** NLP (LM Dictionary, Sentiment/Topic Modeling), SVM, Ensembles  
@@ -149,17 +149,17 @@ Tau Sigma National Honor Society • Mathematical Association of America (MAA)
 ---
 
 <!--
-# Publications 📄
+# Publications 
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-# Talks 🎤
+# Talks 
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>
 
-# Teaching 👩‍🏫
+# Teaching 
 <ul>{% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>

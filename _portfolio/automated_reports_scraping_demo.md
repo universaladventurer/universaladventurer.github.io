@@ -11,24 +11,22 @@ tags:
   - Research Pipelines
 ---
 
-## 🎥 Video Demo
+## Video Demo
 
 <video width="100%" controls>
   <source src="{{ '/files/videos/reports_scrape_demo.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
+Your browser does not support the video tag.
 </video>
 
 ---
 
-## 📌 Overview
-
+## Overview
 This project demonstrates a **high-volume automated scraping system** designed to retrieve corporate governance reports from the Japan Exchange Group (JPX/TSE) website. The system extracts metadata, downloads both English and Japanese documents, and exports clean structured datasets for downstream research analysis.
-
 The system integrates **browser automation**, **structured parsing**, **retry logic**, and **data normalization**, forming the backend of a scalable research pipeline for academic finance research.
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Dynamic web automation with JavaScript-rendered pages  
 - Data extraction from complex DOM structures  
@@ -40,7 +38,7 @@ The system integrates **browser automation**, **structured parsing**, **retry lo
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Python** — Core scripting language  
 - **DrissionPage** — Hybrid browser automation (combines Selenium-like control with requests efficiency)  
@@ -51,8 +49,7 @@ The system integrates **browser automation**, **structured parsing**, **retry lo
 
 ---
 
-## 🧱 System Architecture
-
+## System Architecture
 The scraper is organized into a **modular pipeline**, allowing reliable execution across thousands of documents:
 
 ```
@@ -108,10 +105,9 @@ The scraper is organized into a **modular pipeline**, allowing reliable executio
 
 ---
 
-## 🔑 Key Implementation Details
+## Key Implementation Details
 
 ### 1. Robust Retry Logic with Exponential Backoff
-
 Network requests can fail due to rate limiting, timeouts, or temporary server issues. The system implements a retry mechanism that progressively increases wait times:
 
 ```python
@@ -131,7 +127,6 @@ def spider1(link):
 ```
 
 ### 2. Multi-Stage Navigation with Fault Tolerance
-
 The scraper navigates through multiple dynamic pages. Each critical step includes retry logic to handle page load delays:
 
 ```python
@@ -152,14 +147,12 @@ while True:
 ```
 
 ### 3. Bilingual Document Handling
-
 The system processes both English and Japanese corporate governance documents with different table structures:
 
 - **English documents**: Single table with date and PDF link columns
 - **Japanese documents**: Extended table with HTML and PDF format options, prioritizing PDF when available
 
 ### 4. Structured Output Schema
-
 Each downloaded document is cataloged with comprehensive metadata:
 
 | Field | Description |
@@ -178,7 +171,7 @@ Each downloaded document is cataloged with comprehensive metadata:
 
 ---
 
-## 📊 Performance & Scale
+## Performance & Scale
 
 - **Throughput**: Processes ~100-200 companies per hour (rate-limited for stability)
 - **Error Handling**: Failed securities codes logged separately for manual review
@@ -187,8 +180,7 @@ Each downloaded document is cataloged with comprehensive metadata:
 
 ---
 
-## 🎯 Research Application
-
+## Research Application
 This scraper was developed to support academic research on **Japanese corporate governance**. The structured dataset enables:
 
 - Longitudinal analysis of governance disclosure practices
@@ -198,7 +190,7 @@ This scraper was developed to support academic research on **Japanese corporate 
 
 ---
 
-## 📁 Output Files
+## Output Files
 
 | File | Purpose |
 |------|---------|

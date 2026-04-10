@@ -1,0 +1,453 @@
+/* ==========================================================================
+   AL-FOLIO STYLE OVERRIDE
+   Custom palette: Light Blue #ADD8E6 + Rose Pink #E6ADBB
+   ========================================================================== */
+
+$alfolio-max-width: 860px;
+
+/* ---------- LIGHT MODE (default) ---------- */
+:root {
+  --af-bg:            #fdfbfc;
+  --af-text:          #2a2530;
+  --af-muted:         #7a7085;
+  --af-accent:        #7daabe;          /* softened blue from #ADD8E6 */
+  --af-accent-hover:  #5a8ea8;
+  --af-rose:          #c8899a;          /* softened rose from #E6ADBB */
+  --af-border:        #e0d8dc;
+  --af-border-light:  #f0eaed;
+  --af-nav-bg:        #fdfbfc;
+  --af-footer-bg:     #fdfbfc;
+  --af-card-bg:       #f8f4f6;
+  --af-shadow:        rgba(0,0,0,0.06);
+}
+
+/* ---------- DARK MODE ---------- */
+html[data-theme="dark"] {
+  --af-bg:            #18151c;
+  --af-text:          #e0dbe4;
+  --af-muted:         #8a8098;
+  --af-accent:        #ADD8E6;          /* full light blue pops on dark */
+  --af-accent-hover:  #c4e6f0;
+  --af-rose:          #E6ADBB;          /* full rose pops on dark */
+  --af-border:        #2e2835;
+  --af-border-light:  #241f2a;
+  --af-nav-bg:        #18151c;
+  --af-footer-bg:     #18151c;
+  --af-card-bg:       #201c26;
+  --af-shadow:        rgba(0,0,0,0.25);
+}
+
+/* ---------- GLOBAL RESETS ---------- */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif !important;
+  color: var(--af-text) !important;
+  background: var(--af-bg) !important;
+  line-height: 1.8;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* ---------- MASTHEAD / NAVBAR ---------- */
+
+.masthead {
+  border-bottom: 1px solid var(--af-border) !important;
+  background: var(--af-nav-bg) !important;
+  box-shadow: none !important;
+  margin-bottom: 0 !important;
+  transition: background 0.3s, border-color 0.3s;
+
+  .masthead__inner-wrap {
+    max-width: $alfolio-max-width !important;
+    margin: 0 auto;
+    padding: 18px 20px !important;
+  }
+
+  .greedy-nav {
+    background: transparent !important;
+    max-height: none !important;
+
+    .visible-links {
+      display: flex !important;
+      align-items: center;
+      gap: 0;
+    }
+
+    a {
+      font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif !important;
+      color: var(--af-muted) !important;
+      font-size: 14.5px !important;
+      font-weight: 400 !important;
+      text-transform: lowercase !important;
+      letter-spacing: 0.02em;
+      padding: 0 12px !important;
+      text-decoration: none;
+      transition: color 0.2s ease;
+      height: auto !important;
+
+      &:hover {
+        color: var(--af-rose) !important;
+      }
+    }
+
+    /* Site title / brand */
+    .masthead__menu-item--lg a {
+      font-size: 17px !important;
+      font-weight: 700 !important;
+      color: var(--af-text) !important;
+      letter-spacing: -0.02em;
+      text-transform: none !important;
+      padding-left: 0 !important;
+
+      &:hover {
+        color: var(--af-accent) !important;
+      }
+    }
+  }
+
+  button {
+    .navicon {
+      background: var(--af-text);
+      &::before, &::after {
+        background: var(--af-text);
+      }
+    }
+  }
+}
+
+/* ---------- LAYOUT: KILL SIDEBAR, CENTER CONTENT ---------- */
+
+#main {
+  max-width: $alfolio-max-width !important;
+  margin: 0 auto !important;
+  padding: 40px 20px !important;
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+}
+
+.sidebar {
+  display: none !important;
+}
+
+.page {
+  float: none !important;
+  width: 100% !important;
+  padding-right: 0 !important;
+}
+
+/* ---------- TYPOGRAPHY ---------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif !important;
+  color: var(--af-text) !important;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.page__title {
+  font-size: 1.6rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 1.5rem !important;
+  display: none;
+}
+
+.page__content {
+
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--af-border);
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: var(--af-text);
+  }
+
+  a {
+    color: var(--af-accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+
+    &:hover {
+      color: var(--af-accent-hover);
+      border-bottom-color: var(--af-accent);
+    }
+  }
+
+  ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+
+    li {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 0.3rem;
+    }
+  }
+
+  strong {
+    font-weight: 600;
+    color: var(--af-text);
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--af-border);
+    margin: 2.5rem 0;
+  }
+}
+
+/* ---------- AL-FOLIO PROFILE HEADER ---------- */
+
+.alfolio-profile {
+  display: flex;
+  gap: 35px;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--af-border);
+
+  .alfolio-avatar {
+    flex-shrink: 0;
+    width: 200px;
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 16px var(--af-shadow);
+      transition: box-shadow 0.3s;
+    }
+  }
+
+  .alfolio-info {
+    flex: 1;
+
+    h1 {
+      font-family: 'Source Sans 3', sans-serif !important;
+      font-size: 1.75rem !important;
+      font-weight: 400 !important;
+      color: var(--af-text) !important;
+      margin: 0 0 8px 0;
+      letter-spacing: -0.03em;
+    }
+
+    .alfolio-affiliation {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 0.95rem;
+      color: var(--af-muted);
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    .alfolio-contact {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 0.88rem;
+      color: var(--af-muted);
+      line-height: 1.8;
+
+      a {
+        color: var(--af-accent) !important;
+        text-decoration: none;
+        border-bottom: none !important;
+        &:hover {
+          color: var(--af-rose) !important;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .alfolio-social {
+      margin-top: 12px;
+      display: flex;
+      gap: 14px;
+
+      a {
+        color: var(--af-muted) !important;
+        font-size: 1.2rem;
+        transition: color 0.2s;
+        border: none !important;
+        &:hover {
+          color: var(--af-rose) !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .alfolio-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .alfolio-avatar {
+      width: 160px;
+    }
+
+    .alfolio-info .alfolio-social {
+      justify-content: center;
+    }
+  }
+}
+
+/* ---------- NEWS TABLE ---------- */
+
+.alfolio-news {
+  margin-top: 2rem;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    padding: 10px 0;
+    font-size: 0.92rem;
+    color: var(--af-text);
+    border-bottom: 1px solid var(--af-border-light);
+    vertical-align: top;
+    line-height: 1.7;
+    font-family: 'Source Serif 4', Georgia, serif;
+  }
+
+  .news-date {
+    width: 110px;
+    color: var(--af-rose);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    padding-right: 15px;
+  }
+}
+
+/* ---------- VISITOR MAP ---------- */
+
+.visitor-map {
+  margin-top: 2.5rem;
+  text-align: center;
+
+  h2 {
+    font-family: 'Source Sans 3', sans-serif !important;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--af-border);
+    text-align: left;
+  }
+
+  .map-container {
+    display: inline-block;
+    margin: 0.5rem auto;
+  }
+}
+
+/* ---------- FOOTER ---------- */
+
+.page__footer {
+  background: var(--af-footer-bg) !important;
+  border-top: 1px solid var(--af-border) !important;
+  margin-top: 3rem;
+  transition: background 0.3s, border-color 0.3s;
+
+  footer {
+    max-width: $alfolio-max-width;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .page__footer-follow {
+    display: none !important;
+  }
+
+  .page__footer-copyright {
+    font-family: 'Source Sans 3', sans-serif !important;
+    font-size: 0.8rem !important;
+    color: var(--af-muted) !important;
+    text-align: center;
+
+    a {
+      color: var(--af-accent) !important;
+      &:hover {
+        color: var(--af-rose) !important;
+      }
+    }
+  }
+}
+
+/* ---------- ARCHIVE / PORTFOLIO PAGES ---------- */
+
+.archive__item-title {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+
+  a {
+    color: var(--af-text) !important;
+    text-decoration: none;
+    &:hover {
+      color: var(--af-accent) !important;
+    }
+  }
+}
+
+.archive__item-excerpt {
+  font-size: 0.9rem;
+  color: var(--af-muted);
+  line-height: 1.7;
+}
+
+/* ---------- IMAGES ---------- */
+
+.alfolio-profile img,
+.page__content img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* ---------- SELECTION HIGHLIGHT ---------- */
+
+::selection {
+  background: rgba(230, 173, 187, 0.3);   /* rose tint */
+  color: inherit;
+}
+
+html[data-theme="dark"] ::selection {
+  background: rgba(173, 216, 230, 0.25);   /* blue tint */
+  color: inherit;
+}
+
+/* ---------- SCROLLBAR (webkit) ---------- */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--af-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--af-border);
+  border-radius: 4px;
+  &:hover {
+    background: var(--af-muted);
+  }
+}

@@ -11,23 +11,22 @@ tags:
   - AI Systems
 ---
 
-## 🎥 Video Demo
+## Video Demo
 
 <video width="100%" controls>
   <source src="{{ '/files/videos/LLM_demo.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
+Your browser does not support the video tag.
 </video>
 
 ---
 
-## 📌 Overview
-
+## Overview
 This project showcases an **LLM-driven automation pipeline** designed to extract structured information from unstructured text, transform it into research-ready datasets, and perform classification or summarization tasks.  
 The pipeline demonstrates intelligent reasoning, pattern recognition, and modular task orchestration.
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Prompt engineering for structured extraction  
 - LLM-based reasoning and schema alignment  
@@ -37,7 +36,7 @@ The pipeline demonstrates intelligent reasoning, pattern recognition, and modula
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - Python  
 - Large Language Models (OpenAI API)  
@@ -47,7 +46,7 @@ The pipeline demonstrates intelligent reasoning, pattern recognition, and modula
 
 ---
 
-## 🛠 Technical Notes
+## Technical Notes
 
 - Modular architecture supports easy extension to summarization, classification, or entity extraction tasks.  
 - Built-in fallbacks ensure consistency across diverse document structures.  
@@ -55,7 +54,7 @@ The pipeline demonstrates intelligent reasoning, pattern recognition, and modula
 
 ---
 
-## 📁 Applications
+## Applications
 
 - Text-based financial research (e.g., earnings calls, CEO interviews)  
 - Automated annotation pipelines  
