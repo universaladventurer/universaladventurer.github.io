@@ -1,3 +1,29 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<!-- Override greedy-nav: move all hidden links back to visible -->
+<script>
+(function() {
+  function fixNav() {
+    var hidden = document.querySelector('#site-nav .hidden-links');
+    var visible = document.querySelector('#site-nav .visible-links');
+    var btn = document.querySelector('#site-nav button');
+    if (hidden && visible) {
+      while (hidden.firstChild) {
+        visible.appendChild(hidden.firstChild);
+      }
+      hidden.classList.add('hidden');
+    }
+    if (btn) btn.style.display = 'none';
+  }
+  // Run after greedy-nav has executed
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() { setTimeout(fixNav, 100); });
+  } else {
+    setTimeout(fixNav, 100);
+  }
+  // Also fix on resize (greedy-nav re-runs on resize)
+  window.addEventListener('resize', function() { setTimeout(fixNav, 150); });
+})();
+</script>
+
 {% include analytics.html %}
