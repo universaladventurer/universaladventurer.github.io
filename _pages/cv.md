@@ -7,12 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<div class="cv-download">
-  <a href="{{ '/files/yusang_Nov2025_CV.pdf' | relative_url }}" target="_blank">
-    <i class="fas fa-file-download"></i> Download Full CV (PDF)
-  </a>
-</div>
-
 <div class="cv-section" markdown="0">
   <h2 class="cv-heading"><i class="fas fa-graduation-cap cv-icon"></i>Education</h2>
   <div class="cv-entry">
