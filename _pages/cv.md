@@ -2,165 +2,298 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
-<div style="margin: 1rem 0 2rem;">
-  <a class="btn btn--primary" 
-     href="{{ '/files/yusang_Nov2025_CV.pdf' | relative_url }}" 
-     target="_blank" 
-     style="font-size: 0.9rem;">
+
+<div class="cv-download">
+  <a href="{{ '/files/yusang_Nov2025_CV.pdf' | relative_url }}" target="_blank">
     <i class="fas fa-file-download"></i> Download Full CV (PDF)
   </a>
 </div>
 
-{% include base_path %}
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-graduation-cap cv-icon"></i>Education</h2>
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Columbia University</span>
+      <span class="cv-location">New York, USA</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">M.S. in Applied Mathematics</span>
+      <span class="cv-date">Jan 2024 – May 2025</span>
+    </div>
+    <ul>
+      <li>Leadership: Department Representative, Engineering Graduate Student Council (EGSC)</li>
+      <li>Coursework: Stochastic Methods in Finance, Machine Learning in Finance, Stochastic Analysis, Algorithmic Trading, Computational Methods in Finance</li>
+    </ul>
+  </div>
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">University of Texas at Austin</span>
+      <span class="cv-location">Austin, USA</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">B.S. in Mathematics & B.S. in Economics</span>
+      <span class="cv-date">Jan 2021 – Dec 2023</span>
+    </div>
+    <ul>
+      <li>Honors: Department Honors; ISSS Financial Aid (TPEG) Scholarship $10,500</li>
+      <li>Certificate: Applied Statistical Modeling</li>
+      <li>Coursework: Econometrics, Causal Inference, Game Theory, Real & Numerical Analysis</li>
+    </ul>
+  </div>
+</div>
 
-# Education 
-* **Columbia University**, New York, USA  
-  *M.S. in Applied Mathematics (Minor: Finance), Jan 2024 – May 2025*  
-  • Leadership: Department Representative, Engineering Graduate Student Council (EGSC)  
-  • Coursework: Stochastic Methods in Finance, Machine learning in Finance, Stochastic Analysis, Algorithmic Trading, Computational Methods in Finance  
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-microscope cv-icon"></i>Research Interests</h2>
+  <div class="cv-tags">
+    <span class="cv-tag accent">Text-Based Financial Economics</span>
+    <span class="cv-tag rose">Corporate Governance & Disclosure</span>
+    <span class="cv-tag accent">Empirical Asset Pricing</span>
+    <span class="cv-tag rose">Machine Learning & NLP in Finance</span>
+    <span class="cv-tag accent">FinTech–Bank Partnerships</span>
+    <span class="cv-tag rose">Financial Intermediation</span>
+  </div>
+</div>
 
-* **University of Texas at Austin**, Austin, USA  
-  *B.S. in Mathematics & B.S. in Economics, Jan 2021 – Dec 2023*  
-  • Honors: Department Honors; ISSS Financial Aid (TPEG) Scholarship \$10,500  
-  • Certificate: Applied Statistical Modeling  
-  • Coursework: Econometrics, Causal Inference, Game Theory, Real & Numerical Analysis  
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-flask cv-icon"></i>Research & Projects</h2>
 
----
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">CEO Interview Sentiment & Event Analysis</span>
+      <span class="cv-location">INSEAD, NUS Singapore</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Grant-Funded Research Assistant</span>
+      <span class="cv-date">Jul 2025 – Oct 2025</span>
+    </div>
+    <ul>
+      <li>Processed <strong>3,957 CNBC CEO interview transcripts</strong> using Loughran–McDonald dictionary + custom event detection (42-feature dataset).</li>
+      <li>Identified significant sentiment differences across programs (ANOVA F=54.13, p&lt;0.001).</li>
+      <li>Built NLP pipeline analyzing <strong>26M+ words</strong>, detecting avg <strong>5.42 events/interview</strong> (86% stock-movement related).</li>
+    </ul>
+  </div>
 
-# Research Interests 
-Text-based Financial Economics • Corporate Governance & Disclosure  
-Empirical Asset Pricing • Machine Learning  
-FinTech–Bank Partnerships • Financial Intermediation  
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">American Option Pricing — Master's Thesis</span>
+      <span class="cv-location">Columbia University</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Graduate Researcher</span>
+      <span class="cv-date">Jan 2025 – May 2025</span>
+    </div>
+    <ul>
+      <li>Designed improved <strong>LSMC framework</strong> with Laguerre polynomial bases for high-dimensional American options.</li>
+      <li>Conducted sensitivity studies on volatility, rates, and dividends to quantify early-exercise incentives.</li>
+      <li>Ran large-scale simulations optimizing accuracy–runtime trade-offs.</li>
+    </ul>
+  </div>
 
----
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Algorithmic Trading: Fair Value Gap Strategy</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Integrative Project</span>
+      <span class="cv-date">Feb 2025 – Apr 2025</span>
+    </div>
+    <ul>
+      <li>Built systematic strategy on <strong>Nasdaq-100 futures</strong> using 4H bias + 15M confirmation.</li>
+      <li>Implemented strict risk management with 2:1 reward-to-risk ratio.</li>
+      <li>Achieved <strong>6% ROI in two weeks</strong>.</li>
+    </ul>
+  </div>
 
-# Research & Projects 
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Mortgage Loan Default Risk Modeling</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Capstone Project</span>
+      <span class="cv-date">Nov 2024</span>
+    </div>
+    <ul>
+      <li>Analyzed <strong>5M+ Fannie Mae</strong> records to predict RMBS defaults.</li>
+      <li>Benchmarked 8 ML models; achieved <strong>92.12% accuracy / 95.31% specificity</strong>.</li>
+    </ul>
+  </div>
 
-### CEO Interview Sentiment & Event Analysis *(INSEAD, NUS Singapore)*  
-**Grant-Funded RA | Jul 2025 – Oct 2025**  
-- Processed **3,957 CNBC CEO interview transcripts** using Loughran–McDonald dictionary + custom event detection (42-feature dataset).  
-- Identified significant sentiment differences across programs (ANOVA F=54.13, p<0.001).  
-- Built NLP pipeline analyzing **26M+ words**, detecting avg **5.42 events/interview** (86% stock-movement related).
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Time-Series AI for Stock Forecasting</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Capstone Project</span>
+      <span class="cv-date">Oct – Nov 2024</span>
+    </div>
+    <ul>
+      <li>Built LSTM/RNN/XGBoost trading system (R&sup2; = 0.87).</li>
+      <li>RSI-based execution strategy earning <strong>5.89% ROI over 149 days</strong> (cost-adjusted).</li>
+    </ul>
+  </div>
 
----
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Twitter Bio Classification</span>
+      <span class="cv-location">UT Austin</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Digital Writing & Research Lab</span>
+      <span class="cv-date">Sep – Dec 2022</span>
+    </div>
+    <ul>
+      <li>Built NLP pipeline to classify healthcare-related profiles using ensemble ML (AUC 0.86).</li>
+    </ul>
+  </div>
+</div>
 
-### American Option Pricing — Master’s Thesis  
-**Columbia University | Jan 2025 – May 2025**  
-- Designed improved **LSMC framework** with Laguerre polynomial bases for high-dimensional American options.  
-- Conducted sensitivity studies on volatility, rates, dividends to quantify early-exercise incentives.  
-- Ran large-scale simulations optimizing accuracy–runtime trade-offs.
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-briefcase cv-icon"></i>Industry Experience</h2>
 
----
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Formation Capital Group</span>
+      <span class="cv-location">USA</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Investment Banking Intern</span>
+      <span class="cv-date">Jun 2022 – Dec 2023</span>
+    </div>
+    <ul>
+      <li>Drafted <strong>8+ investment teasers</strong>, producing financial projections & valuation narratives.</li>
+    </ul>
+  </div>
 
-### Algorithmic Trading: Fair Value Gap Strategy  
-**Integrative Project | Feb 2025 – Apr 2025**  
-- Built systematic strategy on **Nasdaq-100 futures** using 4H bias + 15M confirmation.  
-- Implemented strict risk-management with 2:1 R:R.  
-- Achieved **6% ROI in two weeks**.
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">PwC</span>
+      <span class="cv-location">Beijing, China</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Management Consulting Intern</span>
+      <span class="cv-date">Apr – Jun 2020</span>
+    </div>
+    <ul>
+      <li>Delivered analytics-driven revenue optimization plan for a major airline using <strong>2M+ customer records</strong>.</li>
+    </ul>
+  </div>
+</div>
 
----
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-users cv-icon"></i>Leadership & Activities</h2>
 
-### Mortgage Loan Default Risk Modeling  
-**Capstone | Nov 2024**  
-- Analyzed **5M+ Fannie Mae** records to predict RMBS defaults.  
-- Benchmarked 8 ML models; achieved **92.12% accuracy / 95.31% specificity**.
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Columbia Engineering — EGSC</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Department Representative, Applied Mathematics</span>
+      <span class="cv-date">Spring 2025</span>
+    </div>
+    <ul>
+      <li>Represented the Applied Mathematics M.S. cohort and coordinated communication with program leadership.</li>
+      <li>Organized and moderated professional development events, hosting <strong>4–5 industry panelists</strong> per session.</li>
+      <li>Supported academic and career-related initiatives for graduate engineering students.</li>
+    </ul>
+  </div>
 
----
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Read Ahead Program</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Literacy Mentor</span>
+      <span class="cv-date">Oct 2024 – May 2025</span>
+    </div>
+    <ul>
+      <li>Conducted <strong>bi-weekly virtual reading sessions</strong> with elementary students to support literacy development.</li>
+      <li>Designed individualized reading exercises aligned with student progress.</li>
+    </ul>
+  </div>
 
-### Time-Series AI for Stock Forecasting  
-**Capstone | Oct – Nov 2024**  
-- Built LSTM/RNN/XGBoost trading system (R² = 0.87).  
-- RSI-based execution strategy earning **5.89% ROI over 149 days** (cost-adjusted).
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Economics Peer Mentor Program (EPMP)</span>
+      <span class="cv-location">UT Austin</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Peer Mentor</span>
+      <span class="cv-date">Jan 2021 – May 2023</span>
+    </div>
+    <ul>
+      <li>Guided undergraduates on course planning, study strategy, and transitioning to university life.</li>
+      <li>Facilitated small-group discussions on core economics topics and academic resources.</li>
+    </ul>
+  </div>
 
----
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">PLUS Program</span>
+      <span class="cv-location">UT Austin</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Facilitator for ACC 310F: Foundations of Accounting</span>
+      <span class="cv-date">Spring 2022</span>
+    </div>
+    <ul>
+      <li>Led <strong>weekly 1.5-hour structured review sessions</strong> under faculty supervision.</li>
+      <li>Reinforced foundational concepts in accounting through guided practice and collaborative problem-solving.</li>
+    </ul>
+  </div>
+</div>
 
-### Twitter Bio Classification  
-**Digital Writing & Research Lab, UT Austin | Sep – Dec 2022**  
-- Built NLP pipeline to classify healthcare-related profiles using ensemble ML (AUC 0.86).
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-trophy cv-icon"></i>Competitions & Service</h2>
+  <div class="cv-entry">
+    <ul>
+      <li><strong>CAS Hurricane Risk Visualization Competition</strong> · Honorable Mention — Built interactive dashboards and scenario analyses for hurricane impact modeling and insurance risk pricing.</li>
+      <li><strong>March Economic Madness, UT Austin</strong> · Finalist (Top 4 Teams) — Conducted socioeconomic research on regional growth and developed policy recommendations.</li>
+      <li><strong>UT Outpost</strong> · Officer — Managed food pantry inventory and coordinated professional attire lending to support student welfare.</li>
+      <li><strong>Volunteer Note Taker</strong> (UT Austin & Columbia University) — Provided detailed lecture notes for Number Theory and Machine Learning in Finance to support disability accommodations.</li>
+    </ul>
+  </div>
+</div>
 
----
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-id-card cv-icon"></i>Professional Memberships</h2>
+  <div class="cv-tags">
+    <span class="cv-tag accent">CFA Society New York</span>
+    <span class="cv-tag rose">Omicron Delta Epsilon (ODE)</span>
+    <span class="cv-tag accent">Tau Sigma National Honor Society</span>
+    <span class="cv-tag rose">Mathematical Association of America (MAA)</span>
+  </div>
+</div>
 
-# Industry Experience 
-
-### Formation Capital Group — Investment Banking Intern  
-**USA | Jun 2022 – Dec 2023**  
-- Drafted **8+ investment teasers**, producing financial projections & valuation narratives.
-
-### PwC — Management Consulting Intern  
-**Beijing, China | Apr – Jun 2020**  
-- Delivered analytics-driven revenue optimization plan for a major airline using **2M+ customer records**.
-
----
-
-# Leadership & Activities 
-
-### Columbia Engineering — Engineering Graduate Student Council (EGSC)  
-*Department Representative, Applied Mathematics | Spring 2025*  
-- Represented the Applied Mathematics M.S. cohort and coordinated communication with program leadership.  
-- Organized and moderated professional development events, hosting **4–5 industry panelists** per session.  
-- Supported academic and career-related initiatives for graduate engineering students.
-
-### Read Ahead Program — Literacy Mentor  
-**[Read Ahead](https://readahead.org/)** · *Oct 2024 – May 2025*  
-- Conducted **bi-weekly virtual reading sessions** with elementary students to support literacy development.  
-- Designed individualized reading exercises aligned with student progress.
-
-### Economics Peer Mentor Program (EPMP), UT Austin  
-**[EPMP](https://liberalarts.utexas.edu/economics/undergraduate-program/mentor-programs/)** · *Peer Mentor | Jan 2021 – May 2023*  
-- Guided undergraduates on course planning, study strategy, and transitioning to university life.  
-- Facilitated small-group discussions on core economics topics and academic resources.
-
-### Peer-Led Undergraduate Studying Program (PLUS), UT Austin  
-**[PLUS Program](https://catalog.utexas.edu/archive/2016-17/undergraduate/undergraduate-studies/degrees-and-programs/)** · *Facilitator for ACC 310F: Foundations of Accounting | Spring 2022*  
-- Led **weekly 1.5-hour structured review sessions** under faculty supervision.  
-- Reinforced foundational concepts in accounting through guided practice and collaborative problem-solving.
-
-### Competitions & Service  
-- **[CAS Hurricane Risk Visualization Competition](https://sites.utexas.edu/actuarial-sciences/category/case-competition/)** · *Honorable Mention*  
-  - Built **interactive dashboards** and **scenario analyses** for hurricane impact modeling and insurance risk pricing.  
-- **March Economic Madness, UT Austin** — *Finalist (Top 4 Teams)*  
-  - Conducted socioeconomic research on regional growth and developed policy recommendations.  
-- **UT Outpost** — *Officer*  
-  - Managed food pantry inventory and coordinated professional attire lending to support student welfare.  
-- **Volunteer Note Taker** (UT Austin & Columbia University)  
-  - Provided detailed lecture notes for Number Theory and Machine Learning in Finance to support disability accommodations.
-
----
-
-# Professional Memberships 
-CFA Society New York • Omicron Delta Epsilon (ODE)  
-Tau Sigma National Honor Society • Mathematical Association of America (MAA)
-
----
-
-# Skills 
-
-**Programming:** Python (Pandas, NumPy, SciPy), R, Java  
-**Machine Learning:** NLP (LM Dictionary, Sentiment/Topic Modeling), SVM, Ensembles  
-**Deep Learning:** PyTorch, TensorFlow, Keras  
-**Data Engineering:** Web Scraping (Selenium/DrissionPage), APIs, PDF extraction  
-**Quantitative Methods:** Probability, Statistics, Numerical Methods, Time Series  
-**Tools:** LaTeX, Git/GitHub, Jupyter, VS Code, SQL (basic)
-
----
-
-<!--
-# Publications 
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
-# Talks 
-<ul>{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}</ul>
-
-# Teaching 
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
--->
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-code cv-icon"></i>Skills</h2>
+  <div class="cv-skills-grid">
+    <div class="cv-skill-group">
+      <span class="cv-skill-label">Programming</span>
+      <span class="cv-skill-items">Python (Pandas, NumPy, SciPy), R, Java</span>
+    </div>
+    <div class="cv-skill-group">
+      <span class="cv-skill-label">Machine Learning</span>
+      <span class="cv-skill-items">NLP (LM Dictionary, Sentiment/Topic Modeling), SVM, Ensembles</span>
+    </div>
+    <div class="cv-skill-group">
+      <span class="cv-skill-label">Deep Learning</span>
+      <span class="cv-skill-items">PyTorch, TensorFlow, Keras</span>
+    </div>
+    <div class="cv-skill-group">
+      <span class="cv-skill-label">Data Engineering</span>
+      <span class="cv-skill-items">Web Scraping (Selenium/DrissionPage), APIs, PDF Extraction</span>
+    </div>
+    <div class="cv-skill-group">
+      <span class="cv-skill-label">Quantitative Methods</span>
+      <span class="cv-skill-items">Probability, Statistics, Numerical Methods, Time Series</span>
+    </div>
+    <div class="cv-skill-group">
+      <span class="cv-skill-label">Tools</span>
+      <span class="cv-skill-items">LaTeX, Git/GitHub, Jupyter, VS Code, SQL</span>
+    </div>
+  </div>
+</div>
