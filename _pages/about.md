@@ -75,10 +75,10 @@ Full details on the [Portfolio](/portfolio/) page or [CV](/cv/).
 
 <div class="alfolio-news" markdown="0">
 <table>
-  <tr><td class="news-date">Apr 2026</td><td>Updated portfolio with new project demos and research notes.</td></tr>
-  <tr><td class="news-date">Mar 2025</td><td>Published blog posts on applications of credit risk modeling.</td></tr>
-  <tr><td class="news-date">Nov 2024</td><td>Completed M.S. in Applied Mathematics at Columbia University.</td></tr>
-  <tr><td class="news-date">May 2024</td><td>Joined INSEAD as Research Assistant on CEO interview analysis project.</td></tr>
+  <tr><td class="news-date">Apr 2026</td><td>Accepted Research Assistant offer from National University of Singapore.</td></tr>
+  <tr><td class="news-date">Apr 2026</td><td>Accepted Ph.D. in Finance offer from National University of Singapore.</td></tr>
+  <tr><td class="news-date">May 2025</td><td>Completed M.S. in Applied Mathematics at Columbia University.</td></tr>
+  <tr><td class="news-date">Dec 2024</td><td>Completed Bachelor's Degrees at UT Austin.</td></tr>
 </table>
 </div>
 
@@ -86,25 +86,11 @@ Full details on the [Portfolio](/portfolio/) page or [CV](/cv/).
 
 ## My Feline Research Assistant
 
-Meet **Momo**, my unofficial research companion specializing in real-time computational purring, stochastic kneading processes, and night-shift debugging supervision.
+Meet **Miaomiao (喵喵)**, my unofficial research companion and full-time supervisor of late-night debugging sessions.
 
-<div style="display:flex; justify-content:center; gap:1.5rem; margin:1.5rem 0;">
-  <div style="text-align:center;">
-    <img src="images/momo2.jpg" 
-         alt="Momo assisting with research" 
-         style="width:240px; border-radius:10px;">
-    <p style="font-size:0.82rem; color:#6c757d; margin-top:0.5rem;">
-      <em>Supervising late-night coding.</em>
-    </p>
-  </div>
-  <div style="text-align:center;">
-    <img src="images/momo1.jpg" 
-         alt="Momo resting" 
-         style="width:240px; border-radius:10px;">
-    <p style="font-size:0.82rem; color:#6c757d; margin-top:0.5rem;">
-      <em>Scheduled rest-phase optimization.</em>
-    </p>
-  </div>
+<div class="cat-gallery" markdown="0">
+  <img src="images/momo2.jpg" alt="Miaomiao">
+  <img src="images/momo1.jpg" alt="Miaomiao">
 </div>
 
 ---
@@ -113,9 +99,6 @@ Meet **Momo**, my unofficial research companion specializing in real-time comput
 
 <div class="visitor-map" markdown="0">
   <div class="map-container">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Iwcpoq84hozn6lvVlKPXhtHFHMIBFOZN8By3_MsdXcA&cl=ffffff&w=a"></script>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Iwcpoq84hozn6lvVlKPXhtHFHMIBFOZN8By3_MsdXcA&cl=ffffff&w=300&t=tt"></script>
   </div>
-  <p style="font-size:0.82rem; color:#6c757d; margin-top:0.5rem;">
-    <em>Visitor locations worldwide.</em>
-  </p>
 </div>
