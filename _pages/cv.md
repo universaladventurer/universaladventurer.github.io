@@ -11,6 +11,16 @@ redirect_from:
   <h2 class="cv-heading"><i class="fas fa-graduation-cap cv-icon"></i>Education</h2>
   <div class="cv-entry">
     <div class="cv-entry-header">
+      <span class="cv-org">National University of Singapore</span>
+      <span class="cv-location">Singapore</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Incoming Ph.D. Student in Finance</span>
+      <span class="cv-date">Aug 2026</span>
+    </div>
+  </div>
+  <div class="cv-entry">
+    <div class="cv-entry-header">
       <span class="cv-org">Columbia University</span>
       <span class="cv-location">New York, USA</span>
     </div>
@@ -147,6 +157,17 @@ redirect_from:
 
 <div class="cv-section" markdown="0">
   <h2 class="cv-heading"><i class="fas fa-briefcase cv-icon"></i>Industry Experience</h2>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">National University of Singapore</span>
+      <span class="cv-location">Singapore</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Research Assistant</span>
+      <span class="cv-date">May 2026 – Aug 2026</span>
+    </div>
+  </div>
 
   <div class="cv-entry">
     <div class="cv-entry-header">
