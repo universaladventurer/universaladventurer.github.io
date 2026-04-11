@@ -83,98 +83,54 @@ article.page,
     margin: 0 auto;
     padding: 18px 20px !important;
   }
+}
 
-  .greedy-nav {
-    background: transparent !important;
-    max-height: none !important;
-    min-height: 0 !important;
+/* New simple nav — no greedy-nav JS */
+.af-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-    /* Make sure all links are visible */
-    .visible-links {
-      display: flex !important;
-      align-items: center;
-      flex-wrap: wrap !important;
-      gap: 0;
-      overflow: visible !important;
-      width: auto !important;
-      max-width: none !important;
-      padding: 0 !important;
-    }
+.af-nav-brand {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  color: var(--af-text) !important;
+  letter-spacing: -0.02em;
+  text-decoration: none !important;
+  border: none !important;
 
-    /* Make hidden-links display inline so greedy-nav can't hide them */
-    .hidden-links {
-      display: flex !important;
-      align-items: center !important;
-      position: static !important;
-      margin: 0 !important;
-      padding: 0 !important;
-      border: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
-      width: auto !important;
-
-      &.hidden {
-        display: flex !important;
-      }
-
-      &::before, &::after {
-        display: none !important;
-      }
-
-      li {
-        display: inline-block !important;
-        border: none !important;
-      }
-    }
-
-    button {
-      display: none !important;
-    }
-
-    a {
-      font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif !important;
-      color: var(--af-muted) !important;
-      font-size: 14.5px !important;
-      font-weight: 400 !important;
-      text-transform: lowercase !important;
-      letter-spacing: 0.02em;
-      padding: 0 12px !important;
-      text-decoration: none;
-      transition: color 0.2s ease;
-      height: auto !important;
-      line-height: 1.4 !important;
-
-      &:hover {
-        color: var(--af-rose) !important;
-      }
-    }
-
-    /* Site title / brand */
-    .masthead__menu-item--lg a {
-      font-size: 17px !important;
-      font-weight: 700 !important;
-      color: var(--af-text) !important;
-      letter-spacing: -0.02em;
-      text-transform: none !important;
-      padding-left: 0 !important;
-
-      &:hover {
-        color: var(--af-accent) !important;
-      }
-    }
+  &:hover {
+    color: var(--af-accent) !important;
   }
 }
 
-/* Override greedy-nav JS width calculations */
-.greedy-nav .visible-links li {
-  visibility: visible !important;
-  display: list-item !important;
-}
+.af-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 
-/* Show hamburger only on small screens */
-@media (max-width: 600px) {
-  .masthead .greedy-nav button {
-    display: block !important;
+  a {
+    font-family: 'Source Sans 3', sans-serif !important;
+    color: var(--af-muted) !important;
+    font-size: 14.5px !important;
+    font-weight: 400 !important;
+    text-transform: lowercase !important;
+    letter-spacing: 0.02em;
+    padding: 0 12px !important;
+    text-decoration: none !important;
+    border: none !important;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--af-rose) !important;
+    }
+  }
+
+  #theme-toggle {
+    cursor: pointer;
+    margin-left: 8px;
   }
 }
 
