@@ -9,10 +9,10 @@ redirect_from:
 
 <div class="alfolio-profile">
   <div class="alfolio-avatar">
-    <img src="images/profile.png" alt="Yusang (Stella) He" />
+    <img src="images/profile.png" alt="Yusang (Victoria) He" />
   </div>
   <div class="alfolio-info">
-    <h1>Yusang (Stella) He</h1>
+    <h1>Yusang (Victoria) He</h1>
     <div class="alfolio-affiliation">
       M.S. Applied Mathematics, Columbia University<br>
       B.S. Mathematics & Economics, UT Austin

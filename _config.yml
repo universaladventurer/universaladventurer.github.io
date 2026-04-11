@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Yusang(Stella)'s Homepage"  # Update this with the title of your site
+title                    : "Yusang(Victoria)'s Homepage"  # Update this with the title of your site
 subtitle                 : "Welcome to my academic portfolio website." # Update this with the subtitle of your
 title_separator          : "-"
 name                     : &name "Yusang He"
@@ -25,7 +25,7 @@ repository               : "universaladventurer/universalsadventurer.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yusang(Stella) He"
+  name             : "Yusang(Victoria) He"
   pronouns         : "She / Her / Hers"  
   bio              : "Research assistant working on empirical finance, text-based analysis, and crypto/FinTech projects."
   location         : "Singapore"
