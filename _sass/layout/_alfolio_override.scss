@@ -101,13 +101,34 @@ article.page,
       padding: 0 !important;
     }
 
-    /* Prevent greedy-nav from hiding links */
+    /* Make hidden-links display inline so greedy-nav can't hide them */
     .hidden-links {
-      display: none;
+      display: flex !important;
+      align-items: center !important;
+      position: static !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+      width: auto !important;
+
+      &.hidden {
+        display: flex !important;
+      }
+
+      &::before, &::after {
+        display: none !important;
+      }
+
+      li {
+        display: inline-block !important;
+        border: none !important;
+      }
     }
 
     button {
-      display: none !important; /* hide hamburger on desktop */
+      display: none !important;
     }
 
     a {
