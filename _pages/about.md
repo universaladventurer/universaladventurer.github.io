@@ -42,6 +42,7 @@ See the [Research](/research/) page for working papers, or my [CV](/cv/).
 <div class="alfolio-news" markdown="0">
 <table>
   <tr><td class="news-date">Aug 2026</td><td>Joined the National University of Singapore as a Ph.D. student in Finance.</td></tr>
+  <tr><td class="news-date">May 2026</td><td>Research Assistant to Prof. Alminas Žaldokas at the National University of Singapore (May – July 2026).</td></tr>
   <tr><td class="news-date">May 2025</td><td>Completed M.S. in Applied Mathematics at Columbia University.</td></tr>
   <tr><td class="news-date">Dec 2024</td><td>Completed B.S. in Mathematics and B.S. in Economics at UT Austin.</td></tr>
 </table>

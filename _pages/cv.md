@@ -80,6 +80,17 @@ redirect_from:
 
   <div class="cv-entry">
     <div class="cv-entry-header">
+      <span class="cv-org">National University of Singapore</span>
+      <span class="cv-location">Singapore</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Research Assistant to Prof. Alminas Žaldokas</span>
+      <span class="cv-date">May 2026 – Jul 2026</span>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
       <span class="cv-org">Rating Public Procurement Markets (<em>Economic Modelling</em>, 2026)</span>
       <span class="cv-location">NUS, Singapore</span>
     </div>
