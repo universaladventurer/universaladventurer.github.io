@@ -7,6 +7,10 @@ redirect_from:
   - /resume
 ---
 
+<div class="cv-download" markdown="0">
+  <a href="/files/CV_Yusang_He.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Download CV (PDF)</a>
+</div>
+
 <div class="cv-section" markdown="0">
   <h2 class="cv-heading"><i class="fas fa-graduation-cap cv-icon"></i>Education</h2>
   <div class="cv-entry">
@@ -15,8 +19,8 @@ redirect_from:
       <span class="cv-location">Singapore</span>
     </div>
     <div class="cv-entry-sub">
-      <span class="cv-role">Incoming Ph.D. Student in Finance</span>
-      <span class="cv-date">Aug 2026</span>
+      <span class="cv-role">Ph.D. Student in Finance</span>
+      <span class="cv-date">Aug 2026 – present</span>
     </div>
   </div>
   <div class="cv-entry">
@@ -53,25 +57,64 @@ redirect_from:
 <div class="cv-section" markdown="0">
   <h2 class="cv-heading"><i class="fas fa-microscope cv-icon"></i>Research Interests</h2>
   <div class="cv-tags">
-    <span class="cv-tag accent">Text-Based Financial Economics</span>
-    <span class="cv-tag rose">Corporate Governance & Disclosure</span>
-    <span class="cv-tag accent">Empirical Asset Pricing</span>
-    <span class="cv-tag rose">Machine Learning & NLP in Finance</span>
-    <span class="cv-tag accent">FinTech–Bank Partnerships</span>
+    <span class="cv-tag accent">Corporate Governance</span>
+    <span class="cv-tag rose">Asset Pricing</span>
+    <span class="cv-tag accent">Industrial Organization</span>
     <span class="cv-tag rose">Financial Intermediation</span>
   </div>
 </div>
 
 <div class="cv-section" markdown="0">
-  <h2 class="cv-heading"><i class="fas fa-flask cv-icon"></i>Research & Projects</h2>
+  <h2 class="cv-heading"><i class="fas fa-flask cv-icon"></i>Research Experience</h2>
 
   <div class="cv-entry">
     <div class="cv-entry-header">
-      <span class="cv-org">CEO Interview Sentiment & Event Analysis</span>
-      <span class="cv-location">INSEAD, NUS Singapore</span>
+      <span class="cv-org">Payment Infrastructure and SME Financing Constraints: Availability Delay, Liquidity Exposure, and Working Capital in Emerging Markets</span>
+      <span class="cv-location">INSEAD, Singapore</span>
     </div>
     <div class="cv-entry-sub">
-      <span class="cv-role">Grant-Funded Research Assistant</span>
+      <span class="cv-role">Book chapter (under review), with Prof. Ben Charoenwong</span>
+      <span class="cv-date">2026</span>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Rating Public Procurement Markets (<em>Economic Modelling</em>, 2026)</span>
+      <span class="cv-location">NUS, Singapore</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Research Assistant to Prof. Tatyana Deryugina (UIUC) and Prof. Alminas Žaldokas (NUS) — acknowledged in the published paper</span>
+      <span class="cv-date">Feb 2026 – Apr 2026</span>
+    </div>
+    <ul>
+      <li>Matched EU procurement awards to Orbis firm-level financials across <strong>27 European countries and 5 sectors</strong>, building a unified firm–award panel.</li>
+      <li>Developed a reproducible Python pipeline for award-level deduplication, CPV-to-NACE crosswalking (NAICS fallback), and ultimate-parent consolidation.</li>
+      <li>Computed firm- and group-level market concentration, operating margins, and procurement dependency, with documented methodology and data limitations.</li>
+    </ul>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">Japan Corporate Governance Reform</span>
+      <span class="cv-location">INSEAD, Singapore</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Research Assistant to Prof. Ben Charoenwong</span>
+      <span class="cv-date">Dec 2025 – Feb 2026</span>
+    </div>
+    <ul>
+      <li>Constructed a firm-level dataset of TSE Prime and Standard firms under the 2023 price-to-book disclosure initiative, collecting Corporate Governance Reports and extracting structured disclosure data.</li>
+    </ul>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-header">
+      <span class="cv-org">CEO Interview Sentiment and Event Analysis</span>
+      <span class="cv-location">INSEAD, Singapore</span>
+    </div>
+    <div class="cv-entry-sub">
+      <span class="cv-role">Industry Research Project with Prof. Ben Charoenwong (INSEAD) and Prof. Alminas Žaldokas (NUS)</span>
       <span class="cv-date">Jul 2025 – Oct 2025</span>
     </div>
     <ul>
@@ -80,6 +123,11 @@ redirect_from:
       <li>Built NLP pipeline analyzing <strong>26M+ words</strong>, detecting avg <strong>5.42 events/interview</strong> (86% stock-movement related).</li>
     </ul>
   </div>
+
+</div>
+
+<div class="cv-section" markdown="0">
+  <h2 class="cv-heading"><i class="fas fa-laptop-code cv-icon"></i>Selected Projects</h2>
 
   <div class="cv-entry">
     <div class="cv-entry-header">
@@ -156,18 +204,7 @@ redirect_from:
 </div>
 
 <div class="cv-section" markdown="0">
-  <h2 class="cv-heading"><i class="fas fa-briefcase cv-icon"></i>Industry Experience</h2>
-
-  <div class="cv-entry">
-    <div class="cv-entry-header">
-      <span class="cv-org">National University of Singapore</span>
-      <span class="cv-location">Singapore</span>
-    </div>
-    <div class="cv-entry-sub">
-      <span class="cv-role">Research Assistant</span>
-      <span class="cv-date">May 2026 – Aug 2026</span>
-    </div>
-  </div>
+  <h2 class="cv-heading"><i class="fas fa-briefcase cv-icon"></i>Professional Experience</h2>
 
   <div class="cv-entry">
     <div class="cv-entry-header">

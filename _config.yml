@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Yusang(Victoria)'s Homepage"  # Update this with the title of your site
-subtitle                 : "Welcome to my academic portfolio website." # Update this with the subtitle of your
+title                    : "Yusang He"  # Update this with the title of your site
+subtitle                 : "" # Update this with the subtitle of your
 title_separator          : "-"
 name                     : &name "Yusang He"
-description              : &description "Yusang He's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Yusang (Victoria) He — Ph.D. student in Finance, National University of Singapore"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://universaladventurer.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,14 +24,14 @@ repository               : "universaladventurer/universalsadventurer.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yusang(Victoria) He"
   pronouns         : "She / Her / Hers"  
-  bio              : "Research assistant working on empirical finance, text-based analysis, and crypto/FinTech projects."
+  bio              : "Ph.D. student in Finance, National University of Singapore."
   location         : "Singapore"
   employer         : # 
   uri              : # URL
-  email            : "yh3722@columbia.edu" 
+  email            : "yusang.he@u.nus.edu" 
 
   # Academic websites
   academia         : # URL
@@ -64,7 +64,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "stellaishere"
+  linkedin         : "vicishere"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -220,16 +220,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

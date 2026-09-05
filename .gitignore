@@ -18,3 +18,11 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# macOS
+.DS_Store
+
+# Local-only originals (not needed on the site)
+images/yh profession photo.JPG
+images/profile_old.png
+files/videos/practice video.mp4

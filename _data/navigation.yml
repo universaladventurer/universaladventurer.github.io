@@ -17,15 +17,19 @@ main:
   #- title: "Teaching"
   #  url: /teaching/    
 
+  - title: "Research"
+    url: /research/
+
   - title: "CV"
-  #  url:/files/yusang_Nov2025_CV.pdf
     url: /cv/
 
-  - title: "Portfolio"
-    url: /portfolio/
+  # Re-enable once there are portfolio items again
+  #- title: "Portfolio"
+  #  url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  # Re-enable once there are posts again
+  #- title: "Blog Posts"
+  #  url: /year-archive/
  
     
   # - title: "CV"
